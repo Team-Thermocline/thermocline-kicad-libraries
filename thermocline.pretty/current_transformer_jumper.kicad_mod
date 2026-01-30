@@ -1,0 +1,99 @@
+(footprint "current_transformer_jumper"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -12 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "db6bd32c-5bd4-4eda-b90a-bb32037278d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jumper"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52326878-f40d-47ac-9a87-a7e52afc9e76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f7fcd8a-79c9-474a-8213-fabbe72d4693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8894cf42-cccd-4f96-960d-d50f80af42f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1aafff8e-92e9-4bfd-9d57-e45d21c76075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -12.5 0)
+		(size 3.5 3.5)
+		(drill 1.778)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "afaf9b95-5090-4df4-9988-686ee5640afe")
+	)
+	(pad "2" thru_hole circle
+		(at 12.5 0)
+		(size 3.5 3.5)
+		(drill 1.778)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "0523e802-38e1-4352-ac5a-769b184c3e11")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/thermocline-kicad-libraries/3d/Wire Jumper-Wire Body.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
