@@ -51,6 +51,17 @@
 		)
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 4.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "68b3393c-ba03-4b87-b521-53181093adc9")
+	)
 	(fp_poly
 		(pts
 			(xy -3.507141 2.676428) (xy -3.453043 2.749046) (xy -3.4171 2.807558) (xy -3.398519 2.855236) (xy -3.396505 2.895347)
