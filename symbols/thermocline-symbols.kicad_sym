@@ -781,7 +781,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -8.89) (xy 0 -8.89)
+					(xy 8.89 -8.89) (xy 5.08 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -805,7 +805,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -24.384) (xy 0 -24.384)
+					(xy 8.89 -24.13) (xy 5.08 -24.13)
 				)
 				(stroke
 					(width 0)
@@ -817,7 +817,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -42.164) (xy 0 -42.164)
+					(xy 8.89 -41.91) (xy -1.27 -41.91)
 				)
 				(stroke
 					(width 0)
@@ -829,7 +829,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -54.864) (xy 0 -54.864)
+					(xy 8.89 -54.61) (xy 3.81 -54.61)
 				)
 				(stroke
 					(width 0)
@@ -841,7 +841,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -72.644) (xy 0 -72.644)
+					(xy 8.89 -72.39) (xy -3.81 -72.39)
 				)
 				(stroke
 					(width 0)
@@ -853,7 +853,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -85.344) (xy 0 -85.344)
+					(xy 8.89 -85.09) (xy 5.08 -85.09)
 				)
 				(stroke
 					(width 0)
@@ -972,7 +972,7 @@
 				)
 			)
 			(text "HMI"
-				(at 8.89 -24.13 0)
+				(at 8.89 -23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -981,7 +981,7 @@
 				)
 			)
 			(text "NEOPIXEL"
-				(at 8.89 -41.91 0)
+				(at 8.89 -41.656 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -990,7 +990,7 @@
 				)
 			)
 			(text "GPIO"
-				(at 8.89 -54.61 0)
+				(at 8.89 -54.356 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -999,7 +999,7 @@
 				)
 			)
 			(text "ANALOG_GPIO"
-				(at 8.89 -72.39 0)
+				(at 8.89 -72.136 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1008,7 +1008,7 @@
 				)
 			)
 			(text "USB"
-				(at 8.89 -85.09 0)
+				(at 8.89 -84.836 0)
 				(effects
 					(font
 						(size 1.27 1.27)
