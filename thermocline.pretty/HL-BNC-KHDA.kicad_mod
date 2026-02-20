@@ -1,0 +1,172 @@
+(footprint "HL-BNC-KHDA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "daf397f2-8406-4c2f-b690-7e5a8bc0081f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BNC"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21150c2c-9761-4f8a-8ec3-eface4943ba6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C19712152.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3605f28-5ba6-4d8a-a365-eb29da6bc8fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbbc4681-d1d6-4c3f-8dbd-49db24b9f872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 4)
+		(end -6 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a51468d-ece7-40f2-9bdc-cf0c0f3b296e")
+	)
+	(fp_line
+		(start -4 -6)
+		(end 4 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef8a07de-acf7-4359-98a7-cc9a52f516b5")
+	)
+	(fp_line
+		(start 4 6)
+		(end -4 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8523286-3dd1-4337-b66f-7fb04e655915")
+	)
+	(fp_line
+		(start 6 -4)
+		(end 6 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "798255b1-8579-4df9-b941-e24966b94578")
+	)
+	(fp_rect
+		(start -6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "98f16076-6a2b-427e-a2e9-e4bb232d0a49")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43541e29-2e96-42d0-9be6-2ffa5d9de24d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6414c378-5609-49c1-a228-94859933fed5")
+	)
+	(pad "2" thru_hole circle
+		(at -5 -5)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9066c723-fd1f-424b-b338-45a4580ae84e")
+	)
+	(pad "2" thru_hole circle
+		(at -5 5)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a347a23-d542-4532-a26b-84e8b7aba60f")
+	)
+	(pad "2" thru_hole circle
+		(at 5 -5)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "897665bd-6041-47b7-b7fd-445969f4407f")
+	)
+	(pad "2" thru_hole circle
+		(at 5 5)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a29c261-5617-44b1-ad29-aa6e521f6bf8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/thermocline-kicad-libraries/3d/HL-BNC-KHDA-HL-BNC-KHDA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
